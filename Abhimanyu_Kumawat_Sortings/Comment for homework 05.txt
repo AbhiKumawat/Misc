@@ -1,0 +1,3 @@
+Radix functions fastest and as the size increase selection sort takes a lot of time. 
+For bigger sizes radix was able to it fastest then merge but selection handles the sorting a lot 
+more slower. 

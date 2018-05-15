@@ -1,0 +1,13 @@
+#!/bin/bash
+egrep '.raven' raven.txt
+epreg '^ *$' raven.txt
+egrep '.{40,}' raven.txt
+egrep '^[ a-zA-Z]{1,}$' raven.txt
+egrep '.[A-Z]' raven.txt
+egrep 'p.*p.*ore' raven.txt
+egrep '([a-zA-Z]) \1' raven.txt
+egrep '([a-z])\1.*([a-z])\2.*([a-z])\3.*' raven.txt
+egrep '([a-z])([a-z])[a-z]\2\1' raven.txt
+egrep '[aA].*[zZ]' raven.txt
+egrep '^([0-9]{5}(-[0-9]{4})?$)' raven.txt
+egrep '^([1-9]$|[1-9][0-9]$|[1][0-9][0-9]$|[2][0-1][0-9]$)' raven.txt
